@@ -1,0 +1,4 @@
+#+title: Meta
+
+* TODO Move site configuration into dir-locals
+* TODO Add better styling for presentations
