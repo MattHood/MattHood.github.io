@@ -1,5 +1,5 @@
 #+title: Meta
 
-* TODO Rename 'site' to 'docs' so that gh-pages can have its root set
-* TODO Move site configuration into dir-locals
-* TODO Add better styling for presentations
+* DONE Rename 'site' to 'docs' so that gh-pages can have its root set
+* DONE Move site configuration into dir-locals
+* DONE Add better styling for presentations
