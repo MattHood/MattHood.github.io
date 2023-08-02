@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-08-01 Tue 21:25 -->
+<!-- 2023-08-02 Wed 19:46 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>How FHIR is tackling a wicked problem with technical, social and political solutions</title>
@@ -193,23 +193,20 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<link href="../presentation_outline.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">How FHIR is tackling a wicked problem with technical, social and political solutions</h1>
+<h1 class="title">How FHIR is tackling a wicked problem with technical, social and political solutions
+<br />
+<span class="subtitle">RORO Meetup // 2023-07-26 (Boyd Community Hub, Southbank)</span>
+</h1>
 <div id="outline-container-orgfbd739e" class="outline-2">
 <h2 id="orgfbd739e"><span class="section-number-2">1.</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
-<p>
-RORO Meetup // 2023-07-26
-</p>
 
-<p>
-Boyd Community Hub, Southbank
-</p>
-
-<div id="org9b2b3ce" class="figure">
-<p><img src="resources/fhir.png" alt="fhir.png" width="301px" />
+<div id="org87cf729" class="figure">
+<p><img src="resources/fhir.png" alt="fhir.png" width="300px" />
 </p>
 </div>
 </div>
@@ -285,9 +282,9 @@ A <b>primitive</b> type: Encodes one value
 <pre class="example">
 2023
 2023-08
-2023-08-01
-2023-08-01T21:25:44
-2023-08-01T21:25:44+1000
+2023-08-02
+2023-08-02T19:46:37
+2023-08-02T19:46:37+1000
 </pre>
 
 
@@ -307,7 +304,7 @@ A <b>complex</b> type: Composed of primitive types and other complex types
 </p>
 
 
-<div id="org85eaec7" class="figure">
+<div id="org7150df4" class="figure">
 <p><img src="resources/human_name.svg" alt="human_name.svg" class="org-svg" />
 </p>
 </div>
@@ -506,7 +503,7 @@ From the &ldquo;AU Base&rdquo; profile authored by the HL7 Australia
 Consists of a unique identifier, and some primitive or complex value.
 </p>
 
-<div id="org7a0c3f1" class="figure">
+<div id="orge504953" class="figure">
 <p><img src="resources/extension.svg" alt="extension.svg" class="org-svg" width="1000px" />
 </p>
 </div>
@@ -519,7 +516,7 @@ Consists of a unique identifier, and some primitive or complex value.
 Indicates whether a Patient is registered for Closing the Gap. <code>True</code> or <code>False</code>.
 </p>
 
-<div id="orgdc7ffa6" class="figure">
+<div id="org399a5cf" class="figure">
 <p><img src="resources/closing_the_gap.svg" alt="closing_the_gap.svg" class="org-svg" width="1000px" />
 </p>
 </div>
@@ -558,8 +555,8 @@ observations = bundle.filter <span style="color: #51afef;">do</span> |entry|
 </div>
 
 <pre class="example">
-I, [2023-08-01T21:25:45.451590 #51847]  INFO -- : Initializing client with http://hapi.fhir.org/baseR4
-I, [2023-08-01T21:25:45.451638 #51847]  INFO -- : Configuring the client to use no authentication.
+I, [2023-08-02T19:46:38.923014 #51847]  INFO -- : Initializing client with http://hapi.fhir.org/baseR4
+I, [2023-08-02T19:46:38.924581 #51847]  INFO -- : Configuring the client to use no authentication.
 </pre>
 
 
@@ -637,7 +634,7 @@ A <b>profile</b> is a specification for a resource. It specifies:
 FHIR is only interoperable <i>within the context of a profile</i>.
 </p>
 
-<div id="org1829065" class="figure">
+<div id="orgabff2ea" class="figure">
 <p><img src="resources/blur_to_focus.jpg" alt="blur_to_focus.jpg" width="100%" />
 </p>
 </div>
@@ -753,7 +750,7 @@ Work continues on a FHIR gateway for My Health Record.
 <h2 id="orgf9ac03f"><span class="section-number-2">4.</span> The Virtuous Cycle</h2>
 <div class="outline-text-2" id="text-4">
 
-<div id="orgaf461c5" class="figure">
+<div id="org9a66a5b" class="figure">
 <p><img src="resources/cycle.jpg" alt="cycle.jpg" width="80%" />
 </p>
 </div>
@@ -783,7 +780,7 @@ Any questions?
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Hood &lt;matthood0@gmail.com&gt;</p>
-<p class="date">Created: 2023-08-01 Tue 21:25</p>
+<p class="date">Created: 2023-08-02 Wed 19:46</p>
 </div>
 </body>
 </html>

@@ -1,12 +1,11 @@
 #+TITLE: How FHIR is tackling a wicked problem with technical, social and political solutions
+#+SUBTITLE: RORO Meetup // 2023-07-26 (Boyd Community Hub, Southbank)
 #+AUTHOR: Matt Hood <matthood0@gmail.com>
 #+STARTUP: inlineimages
 #+PROPERTY: header-args:ruby :exports both
+#+HTML_HEAD: <link href="../presentation_outline.css" rel="stylesheet" type="text/css" />
 * Intro
-RORO Meetup // 2023-07-26
-
-Boyd Community Hub, Southbank
-#+attr_html: :width 301px
+#+attr_html: :width 300px
 [[file:resources/fhir.png]]
 
 * The Problem
